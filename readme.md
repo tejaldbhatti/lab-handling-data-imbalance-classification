@@ -19,10 +19,14 @@ Here is the list of steps to be followed (building a simple model without balanc
 - Check the datatypes of all the columns in the data. 
 - Check for null values in the dataframe. Replace the null values using the methods learned in class.
 - Split the data into numerical and catagorical.  Decide if any columns need their dtype changed.
+- Concatenate numerical and categorical back together again for your X dataframe.  Designate the Target as y.
   
   - Split the data into a training set and a test set.
-  - Scale the features either by using normalizer or a standard scaler.
-  - Encode the categorical features using One-Hot Encoding or Ordinal Encoding
+  - Split further into train_num and train_cat.  Also test_num and test_cat.
+  - Scale the features either by using normalizer or a standard scaler. (train_num, test_num)
+  - Encode the categorical features using One-Hot Encoding or Ordinal Encoding.  (train_cat, test_cat)
+      - **fit** only on train data transform both train and test
+      - again re-concatenate train_num and train_cat as X_train as well as test_num and test_cat as X_test
   - Fit a logistic regression model on the training data.
   - Check the accuracy on the test data.
 
