@@ -23,7 +23,7 @@ Here is the list of steps to be followed (building a simple model without balanc
   
   - Split the data into a training set and a test set.
   - Split further into train_num and train_cat.  Also test_num and test_cat.
-  - Scale the features either by using normalizer or a standard scaler. (train_num, test_num)
+  - Scale the features either by using MinMax Scaler or a Standard Scaler. (train_num, test_num)
   - Encode the categorical features using One-Hot Encoding or Ordinal Encoding.  (train_cat, test_cat)
       - **fit** only on train data, transform both train and test
       - again re-concatenate train_num and train_cat as X_train as well as test_num and test_cat as X_test
