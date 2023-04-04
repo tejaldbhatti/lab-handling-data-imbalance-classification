@@ -25,6 +25,7 @@ Here is the list of steps to be followed (building a simple model without balanc
  
 
 **Begin the Modeling here**
+- Look critically at the dtypes of numerical and categorical columns and make changes where appropriate.
 - Concatenate numerical and categorical back together again for your X dataframe.  Designate the TargetB as y.
   - Split the data into a training set and a test set.
   - Split further into train_num and train_cat.  Also test_num and test_cat.
