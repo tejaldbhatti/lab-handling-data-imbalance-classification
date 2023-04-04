@@ -10,7 +10,7 @@ You are revisiting the Healthcare for All Case Study. You are provided with this
 
 ### Instructions
 
-In this lab, we will first take a look at the degree of imbalance in the data and correct it using the techniques we learned in the class.  
+In this lab, we will first take a look at the degree of imbalance in the data and correct it using the techniques we learned in the class.  You should continue in the same notebook from Monday.
 
 Here is the list of steps to be followed (building a simple model without balancing the data):
 
