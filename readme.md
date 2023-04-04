@@ -18,8 +18,8 @@ Here is the list of steps to be followed (building a simple model without balanc
 - Import the required libraries and modules that you would need.
 - Read that data into Python and call the dataframe `donors`.
 - Check the datatypes of all the columns in the data. 
-- Check for null values in the dataframe. Replace the null values using the methods learned in class.
 - Split the data into numerical and catagorical.  Decide if any columns need their dtype changed.
+- Check for null values in the dataframe. Replace the null values using the methods learned in class.
 - Treat the data using techniques learned in class.
 
 **Begin the Modeling here**
