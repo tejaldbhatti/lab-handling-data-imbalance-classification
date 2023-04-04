@@ -10,7 +10,7 @@ You are revisiting the Healthcare for All Case Study. You are provided with this
 
 ### Instructions
 
-In this lab, we will first take a look at the degree of imbalance in the data and correct it using the techniques we learned in the class.
+In this lab, we will first take a look at the degree of imbalance in the data and correct it using the techniques we learned in the class.  We will also practice Feature Selection that was introduced earlier in the week.
 
 Here is the list of steps to be followed (building a simple model without balancing the data):
 
@@ -25,7 +25,7 @@ Here is the list of steps to be followed (building a simple model without balanc
   - Split further into train_num and train_cat.  Also test_num and test_cat.
   - Scale the features either by using normalizer or a standard scaler. (train_num, test_num)
   - Encode the categorical features using One-Hot Encoding or Ordinal Encoding.  (train_cat, test_cat)
-      - **fit** only on train data transform both train and test
+      - **fit** only on train data, transform both train and test
       - again re-concatenate train_num and train_cat as X_train as well as test_num and test_cat as X_test
   - Fit a logistic regression model on the training data.
   - Check the accuracy on the test data.
