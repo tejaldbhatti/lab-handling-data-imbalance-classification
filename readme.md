@@ -2,7 +2,8 @@
 
 # Lab | Handling Data Imbalance in Classification Models
 
-For this lab and in the next lessons we will use the dataset 'Healthcare For All' building a model to predict who will donate (TargetB) and how much they will give (TargetD) (will be used for lab on Friday). You will be using `files_for_lab/learningSet.csv` file which you have already downloaded from class.
+For this lab and in the next lessons we will use the dataset 'Healthcare For All' building a model to predict who will donate (TargetB) and then - how much they will give (TargetD) (will be used for lab on Friday). You will be using `files_for_lab/categorical.csv, numerical.csv, and target.csv` which can be found at this link.
+[link to data](https://github.com/ta-data-remote/lab-random-forests/tree/master/files_for_lab)
 
 ### Scenario
 
