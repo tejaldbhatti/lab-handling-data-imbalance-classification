@@ -30,7 +30,7 @@ Here are the steps to be followed (building a simple model without balancing the
   - Encode the categorical features using One-Hot Encoding or Ordinal Encoding.  (train_cat, test_cat)
       - **fit** only on train data, transform both train and test
       - again re-concatenate train_num and train_cat as X_train as well as test_num and test_cat as X_test
-  - Fit a logistic regression model on the training data.
+  - Fit a logistic regression (classification) model on the training data.
   - Check the accuracy on the test data.
 
 **Note**: So far we have not balanced the data.
