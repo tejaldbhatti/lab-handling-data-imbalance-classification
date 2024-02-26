@@ -17,13 +17,8 @@ In this lab, we will first take a look at the degree of imbalance in the data an
 Here is the list of steps to be followed (building a simple model without balancing the data):
 
 
-**These steps should have been completed in Monday's labs:**
-- Import the required libraries and modules that you would need.
-- Read that data into Python and call the dataframe `donors`.
-- Check the datatypes of all the columns in the data. 
-- Split the data into numerical and catagorical.
-- Check for null values in the dataframe. Replace the null values using the methods learned in class.
-- Treat the data using techniques learned in class.
+**Everyone is starting with the same cleaned data**
+
  
 
 **Begin the Modeling here**
