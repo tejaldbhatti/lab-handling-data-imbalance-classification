@@ -4,6 +4,7 @@
 
 For this lab and in the next lessons we will use the dataset 'Healthcare For All' building a model to predict who will donate (TargetB) and then - how much they will give (TargetD) (will be used for lab on Friday). You will be using `files_for_lab/categorical.csv, numerical.csv, and target.csv` which can be found at this link.
 [link to data](https://github.com/ta-data-remote/lab-random-forests/tree/master/files_for_lab)
+You will need to download the data locally.  Remember to add the files to your .gitignore.
 
 ### Scenario
 
